@@ -1,0 +1,317 @@
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #F3F7F6;
+color: #263238;
+}
+
+header {
+background-color: #17324D;
+color: white;
+padding: 22px 5%;
+border-bottom: 4px solid #00897B;
+}
+
+.header-content {
+max-width: 1200px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 26px;
+}
+
+header p {
+margin: 6px 0 0;
+color: #B0BEC5;
+font-size: 13px;
+text-align: left;
+}
+
+.season {
+background-color: #254965;
+padding: 10px 15px;
+border-radius: 6px;
+border-left: 4px solid #00897B;
+}
+
+.season strong {
+color: #80CBC4;
+}
+
+/* Task 2 - Navigation */
+
+nav {
+background-color: white;
+text-align: center;
+padding: 0;
+white-space: nowrap;
+border-bottom: 1px solid #D6E2E0;
+}
+
+nav a {
+display: inline-block;
+color: #17324D;
+text-decoration: none;
+padding: 13px 11px;
+font-weight: bold;
+transition: 0.3s;
+}
+
+nav a:hover {
+background-color: #E0F2F1;
+color: #00897B;
+}
+
+nav a.active {
+background-color: #00897B;
+color: white;
+}
+
+/* Task 3 - Common Sections */
+
+.content-section,
+.about-section,
+.expert-section {
+width: 90%;
+max-width: 1100px;
+margin: 25px auto;
+padding: 25px;
+border-radius: 7px;
+box-sizing: border-box;
+}
+
+h2 {
+color: #17324D;
+}
+
+.organization-section {
+background-color: #E0F2F1;
+border-left: 5px solid #00897B;
+}
+
+.season-section {
+background-color: white;
+border-top: 5px solid #00897B;
+box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.features-section {
+background-color: #E3F2FD;
+border-left: 5px solid #1976D2;
+}
+
+/* Task 4 - Lists */
+
+section ol,
+section ul {
+line-height: 1.8;
+}
+
+section li {
+margin-bottom: 5px;
+}
+
+section li:hover {
+color: #00897B;
+}
+
+dl {
+line-height: 1.7;
+}
+
+dt {
+color: #17324D;
+margin-top: 12px;
+}
+
+dd {
+margin-bottom: 10px;
+color: #455A64;
+}
+
+/* Task 5 - Card / Box Model */
+
+.card,
+.info-card,
+.content-card {
+width: 90%;
+max-width: 1000px;
+margin: 20px auto;
+padding: 22px;
+background-color: white;
+border: 1px solid #D6E2E0;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+box-sizing: border-box;
+}
+
+/* Task 6 - Images */
+
+img {
+max-width: 100%;
+height: auto;
+border-radius: 6px;
+border: 2px solid #D6E2E0;
+transition: transform 0.3s;
+}
+
+img:hover {
+transform: scale(1.02);
+}
+
+/* Task 7 - Tables */
+
+table {
+width: 90%;
+margin: 25px auto;
+border-collapse: collapse;
+background-color: white;
+}
+
+th,
+td {
+border: 1px solid #B0BEC5;
+padding: 10px;
+text-align: center;
+}
+
+th {
+background-color: #17324D;
+color: white;
+}
+
+tr:nth-child(even) {
+background-color: #E0F2F1;
+}
+
+caption {
+color: #17324D;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+/* Task 8 - Forms */
+
+form {
+width: 90%;
+max-width: 800px;
+margin: 25px auto;
+padding: 25px;
+background-color: white;
+border: 1px solid #D6E2E0;
+border-radius: 8px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.07);
+box-sizing: border-box;
+}
+
+input,
+select,
+textarea {
+width: 100%;
+padding: 10px;
+margin: 6px 0 14px;
+border: 1px solid #B0BEC5;
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+outline: none;
+border-color: #00897B;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+padding: 10px 18px;
+border: none;
+border-radius: 5px;
+background-color: #00897B;
+color: white;
+cursor: pointer;
+margin-right: 8px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+background-color: #00695C;
+}
+
+/* Task 9 - Page Layout */
+
+.page-layout {
+display: flex;
+width: 90%;
+max-width: 1200px;
+margin: 25px auto;
+gap: 20px;
+}
+
+.sidebar {
+width: 25%;
+padding: 20px;
+background-color: white;
+border-radius: 7px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.main-content {
+width: 75%;
+padding: 20px;
+background-color: white;
+border-radius: 7px;
+}
+
+/* Task 10 - Simple Highlight Effect */
+
+.highlight,
+.offer {
+padding: 15px;
+background-color: #E0F2F1;
+border-left: 5px solid #00897B;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.highlight:hover,
+.offer:hover {
+box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Blockquote */
+
+blockquote {
+padding: 15px 20px;
+margin: 15px 0;
+background-color: #E3F2FD;
+border-left: 5px solid #1976D2;
+color: #455A64;
+}
+
+/* Footer - Task 3 */
+
+footer {
+background-color: #17324D;
+color: white;
+text-align: center;
+padding: 22px;
+margin-top: 30px;
+border-top: 3px solid #00897B;
+}
+
+footer p {
+margin: 8px 0;
+}
+
+footer small {
+color: #B0BEC5;
+}
